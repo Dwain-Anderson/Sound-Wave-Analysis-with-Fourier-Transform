@@ -1,0 +1,137 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0 auto;
+    font-size: 16px;
+    line-height: 1.65;
+    padding: 0;
+    background-color: skyblue;
+    word-break: break-word;
+    font-kerning: auto;
+    font-variant: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    hyphens: auto;
+  }
+  
+  /* Header */
+  header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline; 
+    height: 20%;
+    border-bottom: 4px solid #000000; 
+    background-size: cover;
+    padding: 20px 10px;
+    overflow: hidden;
+  }
+  
+  h1 {
+    margin-top: 2.5%;
+    color: rgb(255, 255, 255);
+  }
+  
+  .menu {
+    margin-top: 2.5%;
+  }
+  
+  /* Menu */
+  nav {
+    display: flex;
+  }
+  
+  nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  nav ul li {
+    list-style: none;
+    margin-right: 25px;
+    font-size: large;
+  }
+  
+  nav ul li a {
+    color: rgb(253, 253, 253);
+    font-size: 140%;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  nav ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Footer */
+  footer {
+    display: flex;
+    flex-direction: column;
+    height: 20%;
+    border-top: 4px solid black;
+    background-color: rgba(0, 0, 0, 0.7); 
+    background-size: cover;
+    text-align: center;
+    justify-content: center;
+    color: whitesmoke;
+    overflow: hidden;
+  }
+  
+  .footer-h2 {
+    margin-bottom: 10px;
+  }
+  
+  .footer-text {
+    margin: 5px 0;
+    color: whitesmoke;
+  }
+  
+  .footer-text a {
+    color: #ffcc00; 
+    text-decoration: underline;
+  }
+  
+  
+  .footer-repo {
+    margin-top: 10px;
+    padding: 10px 20px;
+    color: white;
+    background-color: lightskyblue;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .footer-repo:hover {
+    background-color: blue;
+  }
+  
+  
+  /* Typography */
+  p {
+    font-size: larger;
+    line-height: 1.6;
+    margin: 10px 0;
+    color: white;
+  }
+  
+  ul {
+    list-style-type: square;
+    padding-left: 20px;
+  }
+  
+  li {
+    color: white;
+  }
+  
+  /* Main Content - Home */
+  main {
+    padding: 20px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-size: cover;
+    overflow: hidden;
+  }
